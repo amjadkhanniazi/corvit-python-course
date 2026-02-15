@@ -29,7 +29,17 @@
 #     print('this block always execute')
 
 # catching all exceptions
-try:
-    num=1/0
-except Exception as e:
-    print(f'Error: {e}')
+# try:
+#     num=1/0
+# except Exception as e:
+#     print(f'Error: {e}')
+
+# lambda functions
+# x = lambda x: x**2
+# print(x(5))
+
+add = lambda a,b: a+b
+print(add(2,4))
+
+is_even = lambda x: x%2==0
+print(is_even(5))
